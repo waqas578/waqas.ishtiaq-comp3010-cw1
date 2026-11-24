@@ -1,0 +1,16 @@
+# Short excerpt — RIG landing/exploit and Cerber-related alert names
+# Names and times from CW1 investigation report (CW1-alerts.txt / CW1-alert-details.txt).
+# Full CW1-alerts* uploads were not present under uploads/ when this pack was built;
+# lines below are the verified alert labels only (no invented SIDs).
+
+# RIG (exploit kit on rew.kaghaan.com / 109.234.36.251)
+# Alerts name RIG landing, Flash exploit, and payload stages.
+# One shared rule also references RIG/Sundown/Xer.
+# Timeline anchors (UTC): landing ~22:14:46 (frame 14395), Flash ~22:14:47 (14494),
+# payload ~22:14:54 (15099).
+
+# Cerber
+Alert name:  Ransomware/Cerber Checkin 2
+Event time:  2016-10-14 22:15:22 UTC (frame 15209)
+Check-in:  UDP destination port 6892; first payload bytes begin hi008c1c4
+Later host:  ffoqr3ug7m726zou.le2brr.bid (Cerber infrastructure, ~22:17:03 UTC)

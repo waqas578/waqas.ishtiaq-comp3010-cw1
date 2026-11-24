@@ -1,0 +1,9 @@
+# Short excerpt — Evil Redirector Leading to EK
+# Facts from CW1 investigation report / CW1-alerts.txt (coursework artefact).
+# Full CW1-alerts* files were not present under uploads/ when this pack was built.
+
+Alert name:  Evil Redirector Leading to EK Jul 12 2016
+Signature date field on alert line:  Jul 12 2016  (= 2016-07-12)
+Event timestamp:  2016-10-14 22:14:42 UTC
+Flow:  50.56.223.21:80 -> 10.14.106.192:49450
+Notes:  sport=80 -> dport=49450; host unwrappedphotos.com (frame 14055 GET /)
